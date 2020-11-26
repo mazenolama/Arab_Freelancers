@@ -1,0 +1,327 @@
+
+
+
+body{
+    margin:0;
+    padding: 0;
+}
+.header{
+   background-color:#343A40;
+   /*background-color: white;*/
+    color: white;
+    padding: 18px;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+}
+.header .logo h2{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+    color:rgba(255, 255, 255, 0.678);
+}
+
+.header .logo{
+    float: left;
+}
+.header .mynavbar ul{
+    list-style-type: none;
+    text-align: right;
+    margin:0;
+    padding: 0;
+}
+.header .mynavbar ul li{
+    display: inline-block;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+
+    font-size:18px;
+    margin-inline-end: 20px ;
+    padding: 5px;
+}
+.header .mynavbar ul li a{
+    color:rgba(255, 255, 255, 0.513);
+    /*color: rgba(0, 0, 0, 0.479);*/
+    text-decoration: none;
+}
+
+.header .mynavbar ul li a:hover{
+    color:white;
+}
+.master-header{
+    
+    background-color:rgba(40, 153, 130, 0.959);
+   /*background-color: white;*/
+    text-align:center ;
+    padding-top: 13% ;
+    padding-bottom: 13%;
+    color:white;
+}
+.master-header h1{
+    padding-top:5px ;
+    font-size: 50px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+.master-header h2{
+    font-size: 30px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+.master-header img{
+    
+    width: 300px;
+    height: 300px;
+    
+}
+.content{    
+    text-align:center ;
+
+}
+#about,#skills,#contact{
+
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    margin: 70px 0;
+
+}
+#about{
+    padding-top: 18% ;
+    padding-bottom: 13%;
+    margin-top: 10% ;
+
+}
+#about p{
+    text-align: center;
+    padding: 0 15px;
+    text-transform: none;
+}
+* {box-sizing:border-box}
+
+ .container {
+  width: 80%; /* Full width */
+  background-color: #ddd; 
+  font:bold;
+}
+
+#skills {
+  text-align: left;
+  margin-left: 45px;
+  font:bold; 
+  color: black; 
+  padding-top: 13% ;
+  padding-bottom: 13%;
+  margin-top: 10% ;
+
+}
+#skills h2{
+    text-align: center;
+}
+#skills .html {width: 90%; background-color: #4CAF50;} 
+#skills .css {width: 80%; background-color: #2196F3;} 
+#skills .js {width: 65%; background-color: #f44336;} 
+#skills .php {width: 60%; background-color: #808080;} 
+.footer{
+    background-color: rgb(58, 58, 58);
+    color: mintcream;
+    text-align:center ;
+    
+    padding: 5px 0 ;
+}
+.footer p{
+    padding: 0;
+    font-style: italic;
+}
+
+.contact1 {
+    width: 100%;
+    min-height: 100%;
+    padding: 15px;
+  
+    background: white;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-contact1 {
+    width: 1163px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 90px 130px 88px 148px;
+  }
+  
+  /*------------------------------------------------------------------
+  [  ]*/
+  .contact1-pic {
+    width: 296px;
+  }
+  
+  .contact1-pic img {
+    max-width: 100%;
+  }
+  
+  
+  /*------------------------------------------------------------------
+  [  ]*/
+  .contact1-form {
+    width: 390px;
+  }
+  
+  .contact1-form-title {
+    display: block;
+    font-family: Montserrat-ExtraBold;
+    font-size: 30px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 44px;
+  }
+  
+  input.input1 {
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px;
+  }
+  input.input1 + .shadow-input1 {
+    border-radius: 25px;
+  }
+  
+  textarea.input1 {
+    min-height: 150px;
+    border-radius: 25px;
+    padding: 12px 30px;
+  }
+  textarea.input1 + .shadow-input1 {
+    border-radius: 25px;
+  }
+  
+  /*---------------------------------------------*/
+  .wrap-input1 {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 20px;
+  }
+  
+  .input1 {
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+  }
+  
+  .shadow-input1 {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 0px 0px;
+    color: rgba(87,184,70, 0.5);
+  }
+  
+  .input1:focus + .shadow-input1 {
+    -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
+    animation: anim-shadow 0.5s ease-in-out forwards;
+  }
+  
+  @-webkit-keyframes anim-shadow {
+    to {
+      box-shadow: 0px 0px 80px 30px;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes anim-shadow {
+    to {
+      box-shadow: 0px 0px 80px 30px;
+      opacity: 0;
+    }
+  }
+  
+  /*---------------------------------------------*/
+  .container-contact1-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contact1-form-btn {
+    min-width: 193px;
+    height: 50px;
+    border-radius: 25px;
+    background: #57b846;
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .contact1-form-btn span{
+    margin-top: 0;
+    font-weight: 700;
+  }
+  
+  .contact1-form-btn i {
+    margin-left: 7px;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .contact1-form-btn:hover {
+    background: #333333;
+  }
+  
+  .contact1-form-btn:hover i {
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+  
+  
